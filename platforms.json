@@ -1,0 +1,1074 @@
+{
+ "countries": [
+  {
+   "id": "EG",
+   "name": "مصر",
+   "flag": "🇪🇬"
+  },
+  {
+   "id": "SA",
+   "name": "السعودية",
+   "flag": "🇸🇦"
+  },
+  {
+   "id": "AE",
+   "name": "الإمارات",
+   "flag": "🇦🇪"
+  },
+  {
+   "id": "KW",
+   "name": "الكويت",
+   "flag": "🇰🇼"
+  },
+  {
+   "id": "MA",
+   "name": "المغرب",
+   "flag": "🇲🇦"
+  }
+ ],
+ "categories": [
+  {
+   "id": "general",
+   "name": "متاجر شاملة",
+   "icon": "🛒"
+  },
+  {
+   "id": "electronics",
+   "name": "إلكترونيات",
+   "icon": "💻"
+  },
+  {
+   "id": "fashion",
+   "name": "أزياء ورياضة",
+   "icon": "👗"
+  },
+  {
+   "id": "grocery",
+   "name": "سوبرماركت",
+   "icon": "🥬"
+  },
+  {
+   "id": "food",
+   "name": "توصيل طعام",
+   "icon": "🍔"
+  },
+  {
+   "id": "home",
+   "name": "منزل وأجهزة",
+   "icon": "🛋️"
+  },
+  {
+   "id": "health",
+   "name": "صحة وجمال",
+   "icon": "💊"
+  },
+  {
+   "id": "kids",
+   "name": "أطفال",
+   "icon": "🧸"
+  },
+  {
+   "id": "travel",
+   "name": "سفر وفنادق",
+   "icon": "✈️"
+  },
+  {
+   "id": "courses",
+   "name": "كورسات",
+   "icon": "🎓"
+  },
+  {
+   "id": "software",
+   "name": "برامج وخدمات رقمية",
+   "icon": "🧩"
+  },
+  {
+   "id": "games",
+   "name": "ألعاب",
+   "icon": "🎮"
+  },
+  {
+   "id": "services",
+   "name": "تطبيقات وخدمات",
+   "icon": "📱"
+  }
+ ],
+ "platforms": [
+  {
+   "id": "amazon-eg",
+   "name": "أمازون مصر",
+   "en": "Amazon Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FF9900",
+   "domain": "amazon.eg",
+   "home": "https://www.amazon.eg/",
+   "search": "https://www.amazon.eg/s?k={q}",
+   "featured": true
+  },
+  {
+   "id": "noon-eg",
+   "name": "نون مصر",
+   "en": "Noon Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FEEE00",
+   "domain": "noon.com",
+   "home": "https://www.noon.com/egypt-ar/",
+   "search": "https://www.noon.com/egypt-ar/search/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "jumia-eg",
+   "name": "جوميا مصر",
+   "en": "Jumia Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#F68B1E",
+   "domain": "jumia.com.eg",
+   "home": "https://www.jumia.com.eg/",
+   "search": "https://www.jumia.com.eg/catalog/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "btech",
+   "name": "بي تك",
+   "en": "B.TECH",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#E31E24",
+   "domain": "btech.com",
+   "home": "https://btech.com/ar/",
+   "search": "https://btech.com/ar/catalogsearch/result/?q={q}",
+   "featured": false
+  },
+  {
+   "id": "2b",
+   "name": "2B",
+   "en": "2B Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#2D3748",
+   "domain": "2b.com.eg",
+   "home": "https://2b.com.eg/ar/",
+   "search": "https://2b.com.eg/ar/catalogsearch/result/?q={q}",
+   "featured": false
+  },
+  {
+   "id": "raya-shop",
+   "name": "راية شوب",
+   "en": "Raya Shop",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#C8102E",
+   "domain": "rayashop.com",
+   "home": "https://www.rayashop.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "dubai-phone",
+   "name": "دبي فون",
+   "en": "Dubai Phone",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#F97316",
+   "domain": "dubaiphone.net",
+   "home": "https://dubaiphone.net/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "compume",
+   "name": "كومبيوم",
+   "en": "Compume",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#2563EB",
+   "domain": "compume.com",
+   "home": "https://www.compume.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "sigma-computer",
+   "name": "سيجما كمبيوتر",
+   "en": "Sigma Computer",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#7C3AED",
+   "domain": "sigma-computer.com",
+   "home": "https://www.sigma-computer.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "tradeline",
+   "name": "تريد لاين",
+   "en": "Tradeline",
+   "countries": [
+    "EG"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#0F766E",
+   "domain": "tradelinestores.com",
+   "home": "https://tradelinestores.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "elaraby",
+   "name": "العربي جروب",
+   "en": "El Araby Group",
+   "countries": [
+    "EG"
+   ],
+   "category": "home",
+   "kind": "site",
+   "color": "#1D4ED8",
+   "domain": "elarabygroup.com",
+   "home": "https://www.elarabygroup.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "carrefour-eg",
+   "name": "كارفور مصر",
+   "en": "Carrefour Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "grocery",
+   "kind": "site",
+   "color": "#004E9F",
+   "domain": "carrefouregypt.com",
+   "home": "https://www.carrefouregypt.com/mafegy/ar/",
+   "search": "https://www.carrefouregypt.com/mafegy/ar/search?keyword={q}",
+   "featured": false
+  },
+  {
+   "id": "spinneys-eg",
+   "name": "سبينس مصر",
+   "en": "Spinneys Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "grocery",
+   "kind": "site",
+   "color": "#16A34A",
+   "domain": "spinneys-egypt.com",
+   "home": "https://www.spinneys-egypt.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "breadfast",
+   "name": "بريدفاست",
+   "en": "Breadfast",
+   "countries": [
+    "EG"
+   ],
+   "category": "grocery",
+   "kind": "app",
+   "color": "#FF6B35",
+   "domain": "breadfast.com",
+   "home": "https://www.breadfast.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "elmenus",
+   "name": "المينيوز",
+   "en": "elmenus",
+   "countries": [
+    "EG"
+   ],
+   "category": "food",
+   "kind": "app",
+   "color": "#E11D48",
+   "domain": "elmenus.com",
+   "home": "https://www.elmenus.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "vezeeta",
+   "name": "فيزيتا",
+   "en": "Vezeeta",
+   "countries": [
+    "EG"
+   ],
+   "category": "health",
+   "kind": "site",
+   "color": "#0097D7",
+   "domain": "vezeeta.com",
+   "home": "https://www.vezeeta.com/ar",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "chefaa",
+   "name": "شفاء",
+   "en": "Chefaa",
+   "countries": [
+    "EG"
+   ],
+   "category": "health",
+   "kind": "app",
+   "color": "#14B8A6",
+   "domain": "chefaa.com",
+   "home": "https://www.chefaa.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "lc-waikiki-eg",
+   "name": "إل سي وايكيكي مصر",
+   "en": "LC Waikiki Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#0054A6",
+   "domain": "lcwaikiki.com",
+   "home": "https://www.lcwaikiki.com/ar-EG/EG",
+   "search": "https://www.lcwaikiki.com/ar-EG/EG/search?q={q}",
+   "featured": false
+  },
+  {
+   "id": "defacto-eg",
+   "name": "ديفاكتو مصر",
+   "en": "DeFacto Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#111827",
+   "domain": "defacto.com",
+   "home": "https://www.defacto.com/ar-eg",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "adidas-eg",
+   "name": "أديداس مصر",
+   "en": "adidas Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#000000",
+   "domain": "adidas.com.eg",
+   "home": "https://www.adidas.com.eg/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "decathlon-eg",
+   "name": "ديكاتلون مصر",
+   "en": "Decathlon Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#0082C3",
+   "domain": "decathlon.com.eg",
+   "home": "https://www.decathlon.com.eg/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "ikea-eg",
+   "name": "إيكيا مصر",
+   "en": "IKEA Egypt",
+   "countries": [
+    "EG"
+   ],
+   "category": "home",
+   "kind": "site",
+   "color": "#0058A3",
+   "domain": "ikea.com",
+   "home": "https://www.ikea.com/eg/ar/",
+   "search": "https://www.ikea.com/eg/ar/search/?q={q}",
+   "featured": false
+  },
+  {
+   "id": "amazon-sa",
+   "name": "أمازون السعودية",
+   "en": "Amazon Saudi",
+   "countries": [
+    "SA"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FF9900",
+   "domain": "amazon.sa",
+   "home": "https://www.amazon.sa/",
+   "search": "https://www.amazon.sa/s?k={q}",
+   "featured": true
+  },
+  {
+   "id": "noon-sa",
+   "name": "نون السعودية",
+   "en": "Noon Saudi",
+   "countries": [
+    "SA"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FEEE00",
+   "domain": "noon.com",
+   "home": "https://www.noon.com/saudi-ar/",
+   "search": "https://www.noon.com/saudi-ar/search/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "extra-sa",
+   "name": "إكسترا",
+   "en": "eXtra",
+   "countries": [
+    "SA"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#E4002B",
+   "domain": "extra.com",
+   "home": "https://www.extra.com/ar-sa/",
+   "search": "https://www.extra.com/ar-sa/search/?text={q}",
+   "featured": true
+  },
+  {
+   "id": "jarir-sa",
+   "name": "مكتبة جرير",
+   "en": "Jarir",
+   "countries": [
+    "SA"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#D71920",
+   "domain": "jarir.com",
+   "home": "https://www.jarir.com/sa-ar/",
+   "search": "https://www.jarir.com/sa-ar/catalogsearch/result/?q={q}",
+   "featured": false
+  },
+  {
+   "id": "carrefour-sa",
+   "name": "كارفور السعودية",
+   "en": "Carrefour Saudi",
+   "countries": [
+    "SA"
+   ],
+   "category": "grocery",
+   "kind": "site",
+   "color": "#004E9F",
+   "domain": "carrefourksa.com",
+   "home": "https://www.carrefourksa.com/mafsau/ar/",
+   "search": "https://www.carrefourksa.com/mafsau/ar/search?keyword={q}",
+   "featured": false
+  },
+  {
+   "id": "hungerstation",
+   "name": "هنقرستيشن",
+   "en": "HungerStation",
+   "countries": [
+    "SA"
+   ],
+   "category": "food",
+   "kind": "app",
+   "color": "#F5A300",
+   "domain": "hungerstation.com",
+   "home": "https://hungerstation.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "jahez",
+   "name": "جاهز",
+   "en": "Jahez",
+   "countries": [
+    "SA"
+   ],
+   "category": "food",
+   "kind": "app",
+   "color": "#E8112D",
+   "domain": "jahez.net",
+   "home": "https://www.jahez.net/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "mrsool",
+   "name": "مرسول",
+   "en": "Mrsool",
+   "countries": [
+    "SA"
+   ],
+   "category": "services",
+   "kind": "app",
+   "color": "#16A34A",
+   "domain": "mrsool.co",
+   "home": "https://mrsool.co/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "nahdi",
+   "name": "النهدي",
+   "en": "Nahdi",
+   "countries": [
+    "SA"
+   ],
+   "category": "health",
+   "kind": "site",
+   "color": "#1B9AAA",
+   "domain": "nahdionline.com",
+   "home": "https://www.nahdionline.com/ar-sa/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "amazon-ae",
+   "name": "أمازون الإمارات",
+   "en": "Amazon UAE",
+   "countries": [
+    "AE"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FF9900",
+   "domain": "amazon.ae",
+   "home": "https://www.amazon.ae/",
+   "search": "https://www.amazon.ae/s?k={q}",
+   "featured": true
+  },
+  {
+   "id": "noon-ae",
+   "name": "نون الإمارات",
+   "en": "Noon UAE",
+   "countries": [
+    "AE"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FEEE00",
+   "domain": "noon.com",
+   "home": "https://www.noon.com/uae-ar/",
+   "search": "https://www.noon.com/uae-ar/search/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "sharaf-dg",
+   "name": "شرف دي جي",
+   "en": "Sharaf DG",
+   "countries": [
+    "AE"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#E31B23",
+   "domain": "sharafdg.com",
+   "home": "https://uae.sharafdg.com/",
+   "search": "https://uae.sharafdg.com/?q={q}&post_type=product",
+   "featured": false
+  },
+  {
+   "id": "carrefour-ae",
+   "name": "كارفور الإمارات",
+   "en": "Carrefour UAE",
+   "countries": [
+    "AE"
+   ],
+   "category": "grocery",
+   "kind": "site",
+   "color": "#004E9F",
+   "domain": "carrefouruae.com",
+   "home": "https://www.carrefouruae.com/mafuae/ar/",
+   "search": "https://www.carrefouruae.com/mafuae/ar/search?keyword={q}",
+   "featured": false
+  },
+  {
+   "id": "xcite",
+   "name": "إكسايت",
+   "en": "Xcite",
+   "countries": [
+    "KW"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#E4002B",
+   "domain": "xcite.com",
+   "home": "https://www.xcite.com/",
+   "search": null,
+   "featured": true
+  },
+  {
+   "id": "jumia-ma",
+   "name": "جوميا المغرب",
+   "en": "Jumia Morocco",
+   "countries": [
+    "MA"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#F68B1E",
+   "domain": "jumia.ma",
+   "home": "https://www.jumia.ma/",
+   "search": "https://www.jumia.ma/catalog/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "electroplanet",
+   "name": "إلكتروبلانيت",
+   "en": "Electroplanet",
+   "countries": [
+    "MA"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#0EA5E9",
+   "domain": "electroplanet.ma",
+   "home": "https://www.electroplanet.ma/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "glovo",
+   "name": "غلوفو",
+   "en": "Glovo",
+   "countries": [
+    "MA"
+   ],
+   "category": "food",
+   "kind": "app",
+   "color": "#FFC244",
+   "domain": "glovoapp.com",
+   "home": "https://glovoapp.com/ma/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "talabat",
+   "name": "طلبات",
+   "en": "Talabat",
+   "countries": [
+    "EG",
+    "AE",
+    "KW"
+   ],
+   "category": "food",
+   "kind": "app",
+   "color": "#FF5A00",
+   "domain": "talabat.com",
+   "home": "https://www.talabat.com/",
+   "search": null,
+   "featured": true
+  },
+  {
+   "id": "careem",
+   "name": "كريم",
+   "en": "Careem",
+   "countries": [
+    "EG",
+    "SA",
+    "AE"
+   ],
+   "category": "services",
+   "kind": "app",
+   "color": "#2BB673",
+   "domain": "careem.com",
+   "home": "https://www.careem.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "lulu",
+   "name": "لولو هايبرماركت",
+   "en": "Lulu Hypermarket",
+   "countries": [
+    "EG",
+    "SA",
+    "AE",
+    "KW"
+   ],
+   "category": "grocery",
+   "kind": "site",
+   "color": "#0B7A3E",
+   "domain": "luluhypermarket.com",
+   "home": "https://www.luluhypermarket.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "almosafer",
+   "name": "المسافر",
+   "en": "Almosafer",
+   "countries": [
+    "EG",
+    "SA",
+    "AE",
+    "KW"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#0A66C2",
+   "domain": "almosafer.com",
+   "home": "https://www.almosafer.com/ar",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "ounass",
+   "name": "أُناس",
+   "en": "Ounass",
+   "countries": [
+    "SA",
+    "AE",
+    "KW"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#111827",
+   "domain": "ounass.ae",
+   "home": "https://www.ounass.ae/",
+   "search": "https://www.ounass.ae/search?q={q}",
+   "featured": false
+  },
+  {
+   "id": "namshi",
+   "name": "نمشي",
+   "en": "Namshi",
+   "countries": [
+    "SA",
+    "AE",
+    "KW"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#111827",
+   "domain": "namshi.com",
+   "home": "https://www.namshi.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "mumzworld",
+   "name": "ممزورلد",
+   "en": "Mumzworld",
+   "countries": [
+    "SA",
+    "AE",
+    "KW"
+   ],
+   "category": "kids",
+   "kind": "site",
+   "color": "#F0488A",
+   "domain": "mumzworld.com",
+   "home": "https://www.mumzworld.com/ar",
+   "search": "https://www.mumzworld.com/ar/search?q={q}",
+   "featured": false
+  },
+  {
+   "id": "aliexpress",
+   "name": "علي إكسبرس",
+   "en": "AliExpress",
+   "countries": [
+    "*"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#E62E04",
+   "domain": "aliexpress.com",
+   "home": "https://ar.aliexpress.com/",
+   "search": "https://ar.aliexpress.com/wholesale?SearchText={q}",
+   "featured": true
+  },
+  {
+   "id": "temu",
+   "name": "تيمو",
+   "en": "Temu",
+   "countries": [
+    "*"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#FB7701",
+   "domain": "temu.com",
+   "home": "https://www.temu.com/",
+   "search": "https://www.temu.com/search_result.html?search_key={q}",
+   "featured": true
+  },
+  {
+   "id": "shein",
+   "name": "شي إن",
+   "en": "SHEIN",
+   "countries": [
+    "*"
+   ],
+   "category": "fashion",
+   "kind": "site",
+   "color": "#222222",
+   "domain": "shein.com",
+   "home": "https://ar.shein.com/",
+   "search": "https://ar.shein.com/pdsearch/{q}/",
+   "featured": true
+  },
+  {
+   "id": "ebay",
+   "name": "إيباي",
+   "en": "eBay",
+   "countries": [
+    "*"
+   ],
+   "category": "general",
+   "kind": "site",
+   "color": "#E53238",
+   "domain": "ebay.com",
+   "home": "https://www.ebay.com/",
+   "search": "https://www.ebay.com/sch/i.html?_nkw={q}",
+   "featured": false
+  },
+  {
+   "id": "banggood",
+   "name": "بانجوود",
+   "en": "Banggood",
+   "countries": [
+    "*"
+   ],
+   "category": "electronics",
+   "kind": "site",
+   "color": "#F26A1B",
+   "domain": "banggood.com",
+   "home": "https://www.banggood.com/",
+   "search": "https://www.banggood.com/search/{q}.html",
+   "featured": false
+  },
+  {
+   "id": "iherb",
+   "name": "آي هيرب",
+   "en": "iHerb",
+   "countries": [
+    "*"
+   ],
+   "category": "health",
+   "kind": "site",
+   "color": "#458500",
+   "domain": "iherb.com",
+   "home": "https://www.iherb.com/",
+   "search": "https://www.iherb.com/search?kw={q}",
+   "featured": false
+  },
+  {
+   "id": "booking",
+   "name": "بوكينج",
+   "en": "Booking.com",
+   "countries": [
+    "*"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#003580",
+   "domain": "booking.com",
+   "home": "https://www.booking.com/",
+   "search": "https://www.booking.com/searchresults.ar.html?ss={q}",
+   "featured": true
+  },
+  {
+   "id": "agoda",
+   "name": "أجودا",
+   "en": "Agoda",
+   "countries": [
+    "*"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#5392F9",
+   "domain": "agoda.com",
+   "home": "https://www.agoda.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "trip-com",
+   "name": "تريب دوت كوم",
+   "en": "Trip.com",
+   "countries": [
+    "*"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#287DFA",
+   "domain": "trip.com",
+   "home": "https://www.trip.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "skyscanner",
+   "name": "سكاي سكانر",
+   "en": "Skyscanner",
+   "countries": [
+    "*"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#0770E3",
+   "domain": "skyscanner.net",
+   "home": "https://www.skyscanner.net/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "airalo",
+   "name": "إيرالو",
+   "en": "Airalo",
+   "countries": [
+    "*"
+   ],
+   "category": "travel",
+   "kind": "site",
+   "color": "#FF4F1F",
+   "domain": "airalo.com",
+   "home": "https://www.airalo.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "udemy",
+   "name": "يوديمي",
+   "en": "Udemy",
+   "countries": [
+    "*"
+   ],
+   "category": "courses",
+   "kind": "site",
+   "color": "#A435F0",
+   "domain": "udemy.com",
+   "home": "https://www.udemy.com/",
+   "search": "https://www.udemy.com/courses/search/?q={q}",
+   "featured": true
+  },
+  {
+   "id": "coursera",
+   "name": "كورسيرا",
+   "en": "Coursera",
+   "countries": [
+    "*"
+   ],
+   "category": "courses",
+   "kind": "site",
+   "color": "#0056D2",
+   "domain": "coursera.org",
+   "home": "https://www.coursera.org/",
+   "search": "https://www.coursera.org/search?query={q}",
+   "featured": false
+  },
+  {
+   "id": "hostinger",
+   "name": "هوستنجر",
+   "en": "Hostinger",
+   "countries": [
+    "*"
+   ],
+   "category": "software",
+   "kind": "site",
+   "color": "#673DE6",
+   "domain": "hostinger.com",
+   "home": "https://www.hostinger.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "namecheap",
+   "name": "نيم تشيب",
+   "en": "Namecheap",
+   "countries": [
+    "*"
+   ],
+   "category": "software",
+   "kind": "site",
+   "color": "#DE3723",
+   "domain": "namecheap.com",
+   "home": "https://www.namecheap.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "nordvpn",
+   "name": "نورد في بي إن",
+   "en": "NordVPN",
+   "countries": [
+    "*"
+   ],
+   "category": "software",
+   "kind": "site",
+   "color": "#4687FF",
+   "domain": "nordvpn.com",
+   "home": "https://nordvpn.com/",
+   "search": null,
+   "featured": false
+  },
+  {
+   "id": "steam",
+   "name": "ستيم",
+   "en": "Steam",
+   "countries": [
+    "*"
+   ],
+   "category": "games",
+   "kind": "site",
+   "color": "#1B2838",
+   "domain": "store.steampowered.com",
+   "home": "https://store.steampowered.com/",
+   "search": "https://store.steampowered.com/search/?term={q}",
+   "featured": false
+  },
+  {
+   "id": "epic-games",
+   "name": "إيبك جيمز",
+   "en": "Epic Games Store",
+   "countries": [
+    "*"
+   ],
+   "category": "games",
+   "kind": "site",
+   "color": "#2A2A2A",
+   "domain": "store.epicgames.com",
+   "home": "https://store.epicgames.com/ar/",
+   "search": "https://store.epicgames.com/ar/browse?q={q}",
+   "featured": false
+  }
+ ]
+}

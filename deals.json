@@ -1,0 +1,173 @@
+{
+ "updated_at": "2026-10-11T12:00:00Z",
+ "demo": true,
+ "deals": [
+  {
+   "id": "3e824684b3ab",
+   "platform": "amazon-eg",
+   "title": "مثال تجريبي: خصومات على السماعات والإكسسوارات",
+   "type": "deal",
+   "category": "electronics",
+   "url": "https://www.amazon.eg/s?k=%D8%B3%D9%85%D8%A7%D8%B9%D8%A7%D8%AA",
+   "added": "2026-10-11T11:00:00Z",
+   "demo": true,
+   "badge": "خصومات متنوعة"
+  },
+  {
+   "id": "e090cd154888",
+   "platform": "noon-eg",
+   "title": "مثال تجريبي: كوبون خصم على الطلب الأول",
+   "type": "coupon",
+   "category": "general",
+   "url": "https://www.noon.com/egypt-ar/",
+   "added": "2026-10-11T10:00:00Z",
+   "demo": true,
+   "coupon": "DEMO10",
+   "badge": "خصم إضافي"
+  },
+  {
+   "id": "27f881249bed",
+   "platform": "jumia-eg",
+   "title": "مثال تجريبي: شكل عرض بسعر قبل وبعد",
+   "type": "deal",
+   "category": "home",
+   "url": "https://www.jumia.com.eg/",
+   "added": "2026-10-11T09:00:00Z",
+   "demo": true,
+   "price": 1299,
+   "old_price": 1799,
+   "currency": "EGP",
+   "expires": "2026-10-13T17:00:00Z"
+  },
+  {
+   "id": "47f9401e25cb",
+   "platform": "aliexpress",
+   "title": "مثال تجريبي: شحن مجاني على الطلبات المؤهلة",
+   "type": "deal",
+   "category": "general",
+   "url": "https://ar.aliexpress.com/",
+   "added": "2026-10-11T08:00:00Z",
+   "demo": true,
+   "badge": "شحن مجاني"
+  },
+  {
+   "id": "7335b7b99c15",
+   "platform": "temu",
+   "title": "مثال تجريبي: كوبون للمستخدمين الجدد",
+   "type": "coupon",
+   "category": "general",
+   "url": "https://www.temu.com/",
+   "added": "2026-10-11T07:00:00Z",
+   "demo": true,
+   "coupon": "DEMO-NEW",
+   "badge": "للمستخدمين الجدد"
+  },
+  {
+   "id": "e5175b726796",
+   "platform": "shein",
+   "title": "مثال تجريبي: تخفيضات الأزياء",
+   "type": "deal",
+   "category": "fashion",
+   "url": "https://ar.shein.com/",
+   "added": "2026-10-11T06:00:00Z",
+   "demo": true,
+   "badge": "حتى 70%",
+   "expires": "2026-10-12T18:00:00Z"
+  },
+  {
+   "id": "45059928d826",
+   "platform": "udemy",
+   "title": "مثال تجريبي: كورس مجاني لفترة محدودة",
+   "type": "free",
+   "category": "courses",
+   "url": "https://www.udemy.com/",
+   "added": "2026-10-11T05:00:00Z",
+   "demo": true,
+   "badge": "مجاني",
+   "expires": "2026-10-12T12:00:00Z"
+  },
+  {
+   "id": "37d1a840eee7",
+   "platform": "epic-games",
+   "title": "مثال تجريبي: لعبة مجانية هذا الأسبوع",
+   "type": "free",
+   "category": "games",
+   "url": "https://store.epicgames.com/ar/free-games",
+   "added": "2026-10-11T04:00:00Z",
+   "demo": true,
+   "badge": "مجاني"
+  },
+  {
+   "id": "bdcb2aaf6047",
+   "platform": "booking",
+   "title": "مثال تجريبي: خصومات الفنادق",
+   "type": "deal",
+   "category": "travel",
+   "url": "https://www.booking.com/",
+   "added": "2026-10-11T03:00:00Z",
+   "demo": true,
+   "badge": "خصم حتى 20%"
+  },
+  {
+   "id": "eb6103254519",
+   "platform": "carrefour-eg",
+   "title": "مثال تجريبي: عروض السوبرماركت الأسبوعية",
+   "type": "deal",
+   "category": "grocery",
+   "url": "https://www.carrefouregypt.com/mafegy/ar/",
+   "added": "2026-10-11T02:00:00Z",
+   "demo": true,
+   "badge": "عروض الأسبوع"
+  },
+  {
+   "id": "0e3b70128916",
+   "platform": "talabat",
+   "title": "مثال تجريبي: كود خصم على الطلبات",
+   "type": "coupon",
+   "category": "food",
+   "url": "https://www.talabat.com/",
+   "added": "2026-10-11T01:00:00Z",
+   "demo": true,
+   "coupon": "DEMO-FOOD",
+   "badge": "توصيل مجاني"
+  },
+  {
+   "id": "444418c36a6a",
+   "platform": "btech",
+   "title": "مثال تجريبي: شكل عرض جهاز إلكتروني",
+   "type": "deal",
+   "category": "electronics",
+   "url": "https://btech.com/ar/",
+   "added": "2026-10-11T00:00:00Z",
+   "demo": true,
+   "price": 8499,
+   "old_price": 10999,
+   "currency": "EGP"
+  },
+  {
+   "id": "0326011742ca",
+   "platform": "amazon-sa",
+   "title": "مثال تجريبي: عرض بالريال السعودي",
+   "type": "deal",
+   "category": "electronics",
+   "url": "https://www.amazon.sa/",
+   "added": "2026-10-10T23:00:00Z",
+   "demo": true,
+   "price": 349,
+   "old_price": 499,
+   "currency": "SAR"
+  },
+  {
+   "id": "c1d8ac9c52b9",
+   "platform": "noon-ae",
+   "title": "مثال تجريبي: كوبون بالدرهم",
+   "type": "coupon",
+   "category": "general",
+   "url": "https://www.noon.com/uae-ar/",
+   "added": "2026-10-10T22:00:00Z",
+   "demo": true,
+   "coupon": "DEMO-AE",
+   "badge": "خصم إضافي"
+  }
+ ]
+}

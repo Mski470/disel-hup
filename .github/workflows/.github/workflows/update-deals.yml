@@ -1,1 +1,50 @@
 
+name: تحديث العروض
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # كل 3 ساعات (بتوقيت UTC). غيّرها زي ما تحب
+  workflow_dispatch:          # زر تشغيل يدوي من تاب Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: جمع العروض من المصادر
+        env:
+          SHEET_CSV_URL: ${{ secrets.SHEET_CSV_URL }}
+          AFFILIATE_FEED_CSV_URL: ${{ secrets.AFFILIATE_FEED_CSV_URL }}
+        run: python scraper/fetch_deals.py
+
+      - name: النشر على تيليجرام (يتخطى لو مفيش توكن)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MAX_POSTS: "5"
+        run: python scraper/post_telegram.py
+
+      - name: حفظ التغييرات
+        run: |
+          git config user.name "deals-bot"
+          git config user.email "deals-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "لا تغييرات"
+          else
+            git commit -m "chore: update deals"
+            git push
+          fi

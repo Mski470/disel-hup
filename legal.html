@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>الخصوصية والإفصاح والشروط</title>
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎯%3C/text%3E%3C/svg%3E">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Readex+Pro:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav scrolled">
+    <div class="wrap nav-in">
+      <a class="brand" href="./"><span data-brand-emoji>🎯</span> <span data-brand>صيدة</span></a>
+      <nav class="nav-links" aria-label="التنقل">
+        <a href="./">العودة للعروض</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap doc">
+    <h1>الخصوصية والإفصاح والشروط</h1>
+    <p class="muted">آخر تحديث: <span id="d"></span></p>
+
+    <h2 id="privacy">سياسة الخصوصية</h2>
+    <p>نحترم خصوصيتك. هذا الموقع لا يطلب إنشاء حساب ولا يجمع بيانات شخصية مباشرة مثل الاسم أو رقم الهاتف أو البريد.</p>
+    <ul>
+      <li><strong>ما يُحفظ في متصفحك:</strong> اختيارك للدولة فقط، لتسهيل التصفح في الزيارات القادمة.</li>
+      <li><strong>إحصاءات الزيارات:</strong> قد نستخدم أداة تحليلات (مثل Google Analytics أو Cloudflare Web Analytics) لمعرفة عدد الزيارات والصفحات الأكثر استخدامًا بشكل مجمّع.</li>
+      <li><strong>الإعلانات:</strong> قد تُعرض إعلانات من شبكات إعلانية مثل Google AdSense، وقد تستخدم هذه الشبكات ملفات تعريف الارتباط (الكوكيز) لعرض إعلانات مناسبة لاهتماماتك. يمكنك إدارة تفضيلات الإعلانات من <a href="https://adssettings.google.com" rel="noopener" target="_blank">إعدادات إعلانات جوجل</a> أو منع الكوكيز من إعدادات المتصفح.</li>
+      <li><strong>الروابط الخارجية:</strong> عند الضغط على أي عرض تنتقل إلى موقع المتجر، وتخضع بياناتك هناك لسياسة خصوصية المتجر نفسه.</li>
+      <li><strong>الأطفال:</strong> الموقع غير موجّه للأطفال دون 13 عامًا ولا نجمع بياناتهم عن قصد.</li>
+    </ul>
+
+    <h2 id="disclosure">الإفصاح عن الروابط التابعة</h2>
+    <p>بعض الروابط في هذا الموقع روابط تابعة (Affiliate). إذا ضغطت عليها وأتممت عملية شراء، فقد نحصل على عمولة من المتجر <strong>دون أي تكلفة إضافية عليك</strong>، ولا يتغيّر السعر الذي تدفعه. هذه العمولات تساعدنا في تشغيل الموقع وتحديثه.</p>
+    <p>نعرض العروض بناءً على جودتها وليس على قيمة العمولة، وقد تظهر إعلانات مدفوعة ومميّزة دائمًا بكلمة «إعلان».</p>
+    <p lang="en" dir="ltr" style="text-align:right">As an Amazon Associate we earn from qualifying purchases.</p>
+
+    <h2 id="terms">الشروط وإخلاء المسؤولية</h2>
+    <ul>
+      <li>نحن لسنا بائعًا ولا طرفًا في أي عملية شراء؛ الشراء والدفع والشحن والإرجاع والضمان كلها بين المتجر وبينك.</li>
+      <li>الأسعار والكوبونات والتوفّر تتغيّر في أي وقت وقد تنتهي قبل أن تراها. تأكّد دائمًا من السعر النهائي وشروط العرض في صفحة المتجر قبل الشراء.</li>
+      <li>نبذل جهدنا لتكون المعلومات دقيقة لكننا لا نضمن خلوها من الأخطاء، ولا نتحمل مسؤولية أي خسارة ناتجة عن الاعتماد عليها.</li>
+      <li>أسماء المتاجر والعلامات التجارية ملك لأصحابها، وذكرها هنا للتعريف فقط ولا يعني وجود شراكة أو تأييد رسمي إلا إذا ذُكر ذلك صراحة.</li>
+      <li>قد نحدّث هذه الصفحة من وقت لآخر، واستمرارك في استخدام الموقع يعني موافقتك على النسخة الحالية.</li>
+    </ul>
+
+    <h2>تواصل معنا</h2>
+    <p>لأي استفسار أو طلب حذف أو تصحيح عرض: <a href="#" data-mail>راسلنا عبر البريد</a>.</p>
+  </main>
+
+  <script>
+    document.getElementById('d').textContent = new Date(document.lastModified).toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' });
+    fetch('config.json').then(r => r.json()).then(c => {
+      document.querySelectorAll('[data-brand]').forEach(e => e.textContent = (c.brand || {}).name || 'صيدة');
+      document.querySelectorAll('[data-brand-emoji]').forEach(e => e.textContent = (c.brand || {}).emoji || '🎯');
+      document.querySelectorAll('[data-mail]').forEach(a => a.href = 'mailto:' + (c.contact_email || ''));
+    }).catch(() => {});
+  </script>
+</body>
+</html>

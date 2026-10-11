@@ -1,0 +1,91 @@
+{
+  "_help": "عدّل القيم هنا فقط. الحقول اللي بتبدأ بـ _ مجرد شرح ومش بتأثر على الموقع.",
+
+  "brand": {
+    "name": "صيدة",
+    "tagline": "كل عروض المتاجر في مكان واحد",
+    "emoji": "🎯"
+  },
+
+  "site_url": "https://YOUR-SITE.vercel.app",
+  "default_country": "EG",
+  "contact_email": "you@example.com",
+
+  "social": {
+    "telegram": "",
+    "whatsapp": "",
+    "facebook": "",
+    "tiktok": "",
+    "x": ""
+  },
+
+  "analytics": {
+    "_help": "اختياري. ga4_id مثل G-XXXXXXXXXX. أو Cloudflare Web Analytics token (مجاني وبدون كوكيز).",
+    "ga4_id": "",
+    "cloudflare_token": ""
+  },
+
+  "ads": {
+    "_help": "إعلانات غير مزعجة: مفيش بوب-أب ولا إعلانات ثابتة فوق المحتوى. كل إعلان عليه كلمة 'إعلان'. لو adsense_client فاضي بتظهر إعلانات داخلية (house) بس.",
+    "enabled": true,
+    "adsense_client": "",
+    "adsense_slots": {
+      "between_sections": "",
+      "before_footer": "",
+      "infeed": ""
+    },
+    "infeed_every": 9,
+    "house": [
+      {
+        "title": "اشترك في قناة العروض",
+        "text": "أقوى الخصومات والكوبونات توصلك أول بأول على تيليجرام.",
+        "cta": "اشترك الآن",
+        "url": "#telegram"
+      },
+      {
+        "title": "عندك متجر أو منتج؟",
+        "text": "اعرض عرضك أمام آلاف المتسوقين في مصر والوطن العربي.",
+        "cta": "تواصل معنا",
+        "url": "#contact"
+      }
+    ]
+  },
+
+  "affiliates": {
+    "_help": "لكل منصة: mode = param (يضيف باراميتر للرابط، زي tag في أمازون) أو template (رابط شبكة أفلييت فيه {url} للرابط المشفّر أو {url_raw} للرابط زي ما هو). لو value/template فاضي → الرابط بيطلع عادي بدون عمولة.",
+
+    "amazon-eg": { "mode": "param", "param": "tag", "value": "", "signup": "https://affiliate-program.amazon.eg/" },
+    "amazon-sa": { "mode": "param", "param": "tag", "value": "", "signup": "https://affiliate-program.amazon.sa/" },
+    "amazon-ae": { "mode": "param", "param": "tag", "value": "", "signup": "https://affiliate-program.amazon.ae/" },
+
+    "jumia-eg": { "mode": "template", "template": "", "signup": "https://www.jumia.com.eg/affiliate-program" },
+    "jumia-ma": { "mode": "template", "template": "" },
+
+    "noon-eg": { "mode": "template", "template": "", "network": "برنامج نون للشركاء أو شبكة أفلييت (Admitad / CJ / FlexOffers)" },
+    "noon-sa": { "mode": "template", "template": "" },
+    "noon-ae": { "mode": "template", "template": "" },
+
+    "aliexpress": { "mode": "template", "template": "", "network": "AliExpress Portals" },
+    "temu": { "mode": "template", "template": "", "network": "Temu Affiliate" },
+    "shein": { "mode": "template", "template": "", "network": "SHEIN Affiliate" },
+    "ebay": { "mode": "template", "template": "", "network": "eBay Partner Network" },
+    "booking": { "mode": "template", "template": "", "network": "Booking.com Affiliate Partner Programme" },
+    "agoda": { "mode": "template", "template": "", "network": "Agoda Partners" },
+    "trip-com": { "mode": "template", "template": "" },
+    "airalo": { "mode": "template", "template": "" },
+    "udemy": { "mode": "template", "template": "", "network": "Udemy Affiliate (عن طريق Impact)" },
+    "coursera": { "mode": "template", "template": "" },
+    "hostinger": { "mode": "template", "template": "" },
+    "namecheap": { "mode": "template", "template": "" },
+    "nordvpn": { "mode": "template", "template": "" },
+    "iherb": { "mode": "template", "template": "" },
+    "banggood": { "mode": "template", "template": "" },
+    "extra-sa": { "mode": "template", "template": "" },
+    "jarir-sa": { "mode": "template", "template": "" },
+    "namshi": { "mode": "template", "template": "" },
+    "ounass": { "mode": "template", "template": "" },
+    "mumzworld": { "mode": "template", "template": "" },
+    "almosafer": { "mode": "template", "template": "" },
+    "talabat": { "mode": "template", "template": "" }
+  }
+}

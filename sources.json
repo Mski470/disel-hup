@@ -1,0 +1,35 @@
+{
+  "_help": "كل مصدر: type = csv | json | rss. enabled=false يوقفه. url_env = اسم متغير في GitHub (Settings → Secrets and variables → Actions) بدل ما تكتب الرابط هنا. defaults = قيم افتراضية لأي عرض ناقصه الحقل ده.",
+  "sources": [
+    {
+      "name": "Google Sheet (إدخال يدوي — الأسهل والأضمن)",
+      "type": "csv",
+      "url_env": "SHEET_CSV_URL",
+      "enabled": true
+    },
+    {
+      "name": "مثال: ملف كوبونات/منتجات من شبكة أفلييت (CSV)",
+      "type": "csv",
+      "url_env": "AFFILIATE_FEED_CSV_URL",
+      "defaults": { "platform": "jumia-eg", "type": "deal" },
+      "map": { "title": "name", "url": "product_url", "price": "sale_price", "old_price": "price", "image": "image_url" },
+      "enabled": false
+    },
+    {
+      "name": "مثال: RSS لعروض متجر",
+      "type": "rss",
+      "url": "https://example.com/deals.xml",
+      "defaults": { "platform": "noon-eg", "type": "deal" },
+      "enabled": false
+    },
+    {
+      "name": "مثال: JSON API لكوبونات",
+      "type": "json",
+      "url": "https://example.com/api/coupons",
+      "items_path": "data.items",
+      "map": { "title": "name", "url": "link", "coupon": "code", "expires": "end_date", "image": "image_url" },
+      "defaults": { "platform": "noon-eg", "type": "coupon" },
+      "enabled": false
+    }
+  ]
+}

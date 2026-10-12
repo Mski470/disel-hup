@@ -1,0 +1,11 @@
+.git
+.github
+.gitignore
+.assetsignore
+wrangler.jsonc
+node_modules
+scraper
+README.md
+LICENSE-template
+data/sheet-template.csv
+data/posted.json

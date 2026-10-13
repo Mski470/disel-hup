@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://disel-hup.ahmedmoaaz219.workers.dev/sitemap.xml
